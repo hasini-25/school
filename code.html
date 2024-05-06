@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accord School</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        *{
+            font-family:sans-serif;
+        }
+        .background-image {
+            position: relative;
+        }
+        .background-image::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('Web Images/bgm-pattern.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+        }
+        .footer-background{
+            background-image: url('Web Images/footer.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif">
+    <!-- Top Navigation Bar -->
+    <nav style="background-color: white !important; padding: 0 !important;"
+        class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Web Images/logo.JPG" alt="Accord School Logo" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mt-2">
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#" style="font-size: 14px;color: rgb(72, 72, 72);">Home</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#" style="font-size: 14px;color: rgb(72, 72, 72);">About Our
+                            School</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#" style="font-size: 14px;color: rgb(72, 72, 72);">Admissions
+                            Process</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#" style="font-size: 14px;color: rgb(72, 72, 72);">Why
+                            AccordSchool</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#" style="font-size: 14px;color: rgb(72, 72, 72);">News & Updates</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#" style="font-size: 14px;color: rgb(72, 72, 72);">Contact Us</a>
+                    </li>
+                    <li class="nav-item ml-2 d-none d-sm-block d-lg-none">
+                        <a class="nav-link" href="#" style="font-size: 14px;color: rgb(72, 72, 72);">Enquire Now</a>
+                    </li>
+                </ul>
+
+            </div>
+            <button class="border border-0 px-3 ml-2 d-none d-sm-none d-lg-block"
+                style="color:white;font-size: 14px;background-color: rgb(251, 192, 64); height:70px;">Enquire
+                Now</button>
+        </div>
+    </nav>
+    <!-- Welcome Message -->
+    <div class="m-0">
+        <div class="card text-bg-dark">
+            <img src="Web Images/slider.jpg" class="card-img" alt="slider">
+            <div class="card-img-overlay d-flex justify-content-end align-items-end mr-5 ">
+                <div class="col-md-4 offset-md-4 d-none d-sm-block">
+                    <h1 class="card-title text-center text-white p-3" style="font-family: cursive;background-color: rgb(62, 201, 232);">Welcome to Accord School, Tirupati</h1>
+                </div>
+            </div>
+          </div>
+    </div>
+    <!-- About Us Section -->
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <!-- <div class="d-flex justify-content-between"> -->
+                <div class="col-12 col-lg-6 text-center text-lg-left" >
+                    <h2 class="font-weight-bolder" style="color: rgb(33, 116, 187);font-size: 42px;">
+                        About Us <br>
+                        Accord School
+                    </h2>
+                    <p class="pt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem</p>
+                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+                        aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui</p>
+                    <button class="btn btn-primary px-4 py-3 mt-4 border border-0" style="border-radius: 10px;font-size: 12px;background-color: rgb(33, 116, 187);">Read More</button>
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="Web Images/About-us.png" class="img-fluid rounded" alt="About Us">
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <!-- Message from Principal Section -->
+    <div class="bg-primary pb-5" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="Web Images/Message-From-Principal.png" class="img-fluid rounded" alt="Principal">
+                </div>
+                <div class="col-12 col-lg-6 pt-5 mt-5 mb-5 text-white text-center text-lg-left">
+                    <h1 class="font-weight-bolder" >Message From Principal</h1>
+                    <p class="pt-3" style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="btn btn-light px-4 py-3 mt-4 border border-0" style="border-radius: 10px;font-size: 12px;">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-image">
+    <!-- What Makes Us Special -->
+        <div class="container" style="padding-top: 110px;">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-lg-left order-sm-1 order-lg-0">
+                    <h1 style="color:rgb(33, 116, 187)" class="font-weight-bolder pt-3">What Makes Us Special</h1>
+                    <p style="font-size: 18px;color: rgb(90, 90, 90);" class="font-weight-light pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="btn btn-primary px-4 py-3 mt-4 border border-0" style="border-radius: 10px;font-size: 12px;background-color: rgb(33, 116, 187);">Read More</button>
+                </div>
+                <div class="col-md-12 col-lg-6 text-center order-sm-0 order-lg-1">
+                    <img src="Web Images/What-Makes-Us-Special.png" class="img-fluid rounded" alt="Make us special">
+                </div>
+            </div>
+        </div>
+    <!-- Academics -->
+        <div class="container" style="padding-top: 110px;">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center order-sm-0 order-lg-0">
+                    <img src="Web Images/Academics.png" class="img-fluid rounded" alt="Academics">
+                </div>
+                <div class="col-12 col-lg-6 text-center text-lg-left px-5 order-sm-1 order-lg-1">
+                    <h1 style="color:rgb(33, 116, 187)" class="font-weight-bolder pt-3">Academics</h1>
+                    <p style="font-size: 18px;font-family:sans-serif;color: rgb(90, 90, 90);" class="font-weight-light pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="btn btn-primary px-4 py-3 mt-4 border border-0" style="border-radius: 10px;font-size: 12px;background-color: rgb(33, 116, 187);">Read More</button>
+                </div>
+            </div>
+        </div>
+    <!-- MIT -->
+        <div class="container" style="padding-top: 110px;">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-lg-left order-sm-1 order-lg-0">
+                    <h1 style="color:rgb(33, 116, 187)" class="font-weight-bolder pt-3">MIT</h1>
+                    <p style="font-size: 18px;font-family:sans-serif;color: rgb(90, 90, 90);" class="font-weight-light pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="btn btn-primary px-4 py-3 mt-4 border border-0" style="border-radius: 10px;font-size: 12px;background-color: rgb(33, 116, 187);">Read More</button>
+                </div>
+                <div class="col-12 col-lg-6 text-center order-sm-0 order-lg-1">
+                    <img src="Web Images/MIT.png" class="img-fluid rounded" alt="MIT">
+                </div>
+            </div>
+        </div>   
+    <!-- Global Campus -->
+        <div class="container" style="padding-top: 110px;">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center order-sm-0 order-lg-0">
+                    <img src="Web Images/Global-Campus.png" class="img-fluid rounded" alt="Global Campus">
+                </div>
+                <div class="col-12 col-lg-6 text-center text-lg-left px-5 order-sm-1 order-lg-1">
+                    <h1 style="color:rgb(33, 116, 187)" class="font-weight-bolder pt-3">Global Campus</h1>
+                    <p style="font-size: 18px;font-family:sans-serif;color: rgb(90, 90, 90);" class="font-weight-light pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="btn btn-primary px-4 py-3 mt-4 border border-0" style="border-radius: 10px;font-size: 12px;background-color: rgb(33, 116, 187);">Read More</button>
+                </div>
+            </div>
+        </div>  
+    <!-- UNICEF -->
+        <div class="container" style="padding-top: 110px;">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-lg-left order-sm-1 order-lg-0">
+                    <h1 style="color:rgb(33, 116, 187)" class="font-weight-bolder pt-3">UNICEF</h1>
+                    <p style="font-size: 18px;font-family:sans-serif;color: rgb(90, 90, 90);" class="font-weight-light pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="btn btn-primary px-4 py-3 mt-4 border border-0" style="border-radius: 10px;font-size: 12px;background-color: rgb(33, 116, 187);">Read More</button>
+                </div>
+                <div class="col-12 col-lg-6 text-center order-sm-0 order-lg-1">
+                    <img src="Web Images/UNICEF.png" class="img-fluid rounded" alt="UNICEF">
+                </div>
+            </div>
+        </div> 
+    <!-- Whats Happening --> 
+        <div class="container" style="padding-top: 110px; padding-bottom: 90px;">
+            <h1 class="text-center font-weight-bolder mb-5" style="color: rgb(33, 116, 187);">What's Happening</h1>
+            <div class="row" style="padding-top: 50px;">
+                <!-- First Content Block -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-5 mt-3">
+                    <div class="card mb-4 border-0" style="box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);">
+                        <div class="text-center position-absolute" style="top: -55px; left: 50%; transform: translateX(-50%);width: 95%;">
+                            <img src="Web Images/Whats-Happening-1.png" class="card-img-top" alt="Whats Happening 1">
+                        </div>
+                        <div class="position-relative">
+                            <div class="card-body" style="padding-top: 150px;">
+                                <h5 class="card-title">24 February 2024</h5>
+                                <h5 style="color: rgb(33, 116, 187);font-size: 26px;" class="font-weight-bolder">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</h5>
+                                <p class="card-text pt-4 pb-5" style="color: rgb(90, 90, 90);font-size: 18px;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur adipiscing elit. Integer risus felis, viverra eget.</p>
+                            </div>
+                        </div>
+                        <div class="text-center position-absolute" style="bottom: -25px; left: 50%; transform: translateX(-50%);">
+                            <button class="btn btn-primary px-4 py-3 mt-4 border-0" style="border-radius: 10px;font-size: 14px;background-color: rgb(33, 116, 187);">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Content Block -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-5 mt-3">
+                    <div class="card mb-4 border-0" style="box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);">
+                        <div class="text-center position-absolute" style="top: -55px; left: 50%; transform: translateX(-50%);width: 95%;">
+                            <img src="Web Images/Whats-Happening-2.png" class="card-img-top" alt="Whats Happening 1">
+                        </div>
+                        <div class="position-relative">
+                            <div class="card-body" style="padding-top: 150px;">
+                                <h5 class="card-title">21 February 2024</h5>
+                                <h5 style="color: rgb(33, 116, 187);font-size: 26px;" class="font-weight-bolder">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</h5>
+                                <p class="card-text pt-4 pb-5" style="color: rgb(90, 90, 90);font-size: 18px;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur adipiscing elit. Integer risus felis, viverra eget.</p>
+                            </div>
+                        </div>
+                        <div class="text-center position-absolute" style="bottom: -25px; left: 50%; transform: translateX(-50%);">
+                            <button class="btn btn-primary px-4 py-3 mt-4 border-0" style="border-radius: 10px;font-size: 14px;background-color: rgb(33, 116, 187);">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Content Block -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-5 mt-3">
+                    <div class="card mb-4 border-0" style="box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);">
+                        <div class="text-center position-absolute" style="top: -55px; left: 50%; transform: translateX(-50%);width: 95%;">
+                            <img src="Web Images/Whats-Happening-3.png" class="card-img-top" alt="Whats Happening 1">
+                        </div>
+                        <div class="position-relative">
+                            <div class="card-body" style="padding-top: 150px;">
+                                <h5 class="card-title">31 January 2024</h5>
+                                <h5 style="color: rgb(33, 116, 187);font-size: 26px;" class="font-weight-bolder">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</h5>
+                                <p class="card-text pt-4 pb-5" style="color: rgb(90, 90, 90);font-size: 18px;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur adipiscing elit. Integer risus felis, viverra eget.</p>
+                            </div>
+                        </div>
+                        <div class="text-center position-absolute" style="bottom: -25px; left: 50%; transform: translateX(-50%);">
+                            <button class="btn btn-primary px-4 py-3 mt-4 border-0" style="border-radius: 10px;font-size: 14px;background-color: rgb(33, 116, 187);">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Parent Testimonials --> 
+    <div style="background-color: rgb(225, 224, 224);padding-top: 110px;" class="pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 text-center text-md-right">
+                    <h1 class="ml-5 text-center font-weight-bolder" style="color: rgb(33, 116, 187);">Parent Testimonials</h1>
+                </div>
+                <div class="col-md-3 text-lg-right d-none d-md-block">
+                    <i class="bi bi-arrow-left-square p-1 display-4"></i>
+                    <i class="bi bi-arrow-right-square p-1 mr-5 display-4"></i>
+                </div>
+            </div>
+            <div class="overflow-x-hidden mt-3 mb-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Web Images/quote.png" />
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-person-circle" style="font-size: 52px;"></i>
+                                    <div class="px-4">
+                                        <p class="mb-0 mt-3"><strong style="color: rgb(33, 116, 187);">Ryan Haught</strong>
+                                        </p>
+                                        <p>Etiam consequat</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Web Images/quote.png" />
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-person-circle" style="font-size: 52px;"></i>
+                                    <div class="px-4">
+                                        <p class="mb-0 mt-3"><strong style="color: rgb(33, 116, 187);">Johan Horak</strong>
+                                        </p>
+                                        <p>Itora torquent</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Web Images/quote.png" />
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-person-circle" style="font-size: 52px;"></i>
+                                    <div class="px-4">
+                                        <p class="mb-0 mt-3"><strong style="color: rgb(33, 116, 187);">Piotr
+                                                Konicki</strong>
+                                        </p>
+                                        <p>malesuada dignissim</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div style="background-color:#03b19f;" class="d-flex justify-content-around align-items-center p-5">
+            <h3 class="text-white font-weight-bolder">Speak to our Admission Counsellors to know more</h3>
+            <button class="btn btn-light px-5 py-4 border border-0 font-weight-bolder" style="border-radius: 10px;">Enquire now</button>
+        </div>
+        <div class="text-white py-3 footer-background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <img src="Web Images/footer-logo.png" alt="Accord School Logo" >
+                        <p class="pt-3 pl-1">Accord School, Under Prashanth Educational Society, continuously strives to inculcate the best academic practices in an effort to create a benchmark for an ideal teaching-learning environment conducive to making learning a joyful activity.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pl-5 d-none d-md-block">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled pt-4">
+                            <li class=""><a href="#" class="text-white"><i class="bi bi-caret-right"></i> Home</a></li>
+                            <li class="mt-2"><a href="#" class="text-white"><i class="bi bi-caret-right"></i> About Our School</a></li>
+                            <li class="mt-2"><a href="#" class="text-white"><i class="bi bi-caret-right"></i> Admissions Process</a></li>
+                            <li class="mt-2"><a href="#" class="text-white"><i class="bi bi-caret-right"></i> Why Accord School</a></li>
+                            <li class="mt-2"><a href="#" class="text-white"><i class="bi bi-caret-right"></i> News & Updates</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h5>Contact Us</h5>
+                        <div class="pt-4 d-flex">
+                            <i class="bi bi-geo-alt-fill" style="font-size: 28px;"></i>
+                            <p class="pl-2" style="width: 200px;">R.C. Road, Chiguruwada North, Tirupati(R)</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-envelope" style="font-size: 28px;"></i>
+                            <p class="pl-2 pt-3">Email: <a>info@theaccordschool.com</a></p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-telephone" style="font-size: 28px;"></i>
+                            <p class="pl-2 pt-3">Office 1: +91 9581978737<br>
+                                Office 2: +91 9908729577</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="background-color: rgb(33, 116, 187)" class="text-center text-white p-2">Copyright &#169; 2024 by Accord School. All Rights Reserved.</p>
+    </footer>
+    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
